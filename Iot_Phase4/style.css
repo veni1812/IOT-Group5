@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sensor-list {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.sensor-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sensor-list li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.data-display {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#water-level-chart {
+    /* Add styles for the water level chart or map here */
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#warning {
+    border: 2px solid red;
+    background-color: #ffcccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#test-warning-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#test-warning-button:hover {
+    background-color: darkred;
+}

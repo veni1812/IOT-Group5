@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Level Monitoring</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Water Level Monitoring Platform</h1>
+    </header>
+    <div class="container">
+        <div class="sensor-list">
+            <h2>Sensor Locations</h2>
+            <ul id="sensor-list">
+                <!-- Sensor locations will be added dynamically through JavaScript -->
+            </ul>
+        </div>
+        <div class="data-display">
+            <h2>Real-Time Water Levels</h2>
+            <div id="water-level-chart">
+                <!-- Water level chart or map goes here -->
+            </div>
+            <div id="warning">
+                <h3>Flood Warning</h3>
+                <p id="warning-message">No flood warning at the moment.</p>
+                <button id="test-warning-button">Test Flood Warning</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
